@@ -1,0 +1,50 @@
+article {
+    width: 250px;
+    float: left;
+    margin: 0px 25px 25px 0px;
+    font-family: Verdana;
+    color: #666;
+
+    img {
+        width: 250px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.5em;
+        margin: 0;
+        padding: 16px;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+    }
+    
+    div {
+        text-align: center;
+    }
+
+    .property-stats {
+        overflow: hidden;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        border-top: 1px solid #eee;
+
+        div {
+            float: left;
+            width: 33.3%;
+            font-size: small;
+            background-color: #f9f9f9;
+            line-height: 1.7em;
+            padding: 10px 0px;
+        }
+    }
+
+    .property-link {
+        background-color: #1FA7CB;
+        color: white;
+        padding: 16px;
+    }
+    
+}

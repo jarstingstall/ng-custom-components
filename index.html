@@ -1,7 +1,20 @@
 <!doctype html>
 <html>
-    <head></head>
-    <body>
+    <head>
+        <link rel="stylesheet" href="dist/app.css">
+    </head>
+    <body ng-app="app">
+        <ind-property-card
+            image="img/house.jpg"
+            address="5298 Navajo Ln"
+            city="Sedona"
+            state="AZ"
+            zip="84736"
+            beds="4"
+            baths="3"
+            square-feet="3500">
+        </ind-property-card>
         <script src="node_modules/angular/angular.js"></script>
+        <script src="dist/app.js"></script>
     </body>
 </html>
